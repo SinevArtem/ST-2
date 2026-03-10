@@ -7,4 +7,4 @@
 double resolveEarthAndCordTask();
 std::pair<double, double> resolvePoolTask();
 
-#endif // INCLUDE_TASKS_H_
+#endif  // INCLUDE_TASKS_H_
