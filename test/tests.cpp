@@ -146,7 +146,8 @@ TEST(EarthRopeTest, GapMathematicalProof) {
 
 TEST(PoolTest, ReturnsPairOfDoubles) {
     auto result = resolvePoolTask();
-    bool isPair = std::is_same<decltype(result), std::pair<double, double>>::value;
+    bool isPair = std::is_same<decltype(result),
+                    std::pair<double, double>>::value;
     EXPECT_TRUE(isPair);
 }
 
