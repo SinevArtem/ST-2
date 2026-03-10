@@ -1,9 +1,9 @@
 // Copyright 2022 UNN-CS
-#include "tasks.h"
-#include "circle.h"
 #include <cmath>
 #include <stdexcept>
 #include <utility>
+#include "tasks.h"
+#include "circle.h"
 
 double resolveEarthAndCordTask() {
     const double EARTH_RADIUS_KM = 6378.1;
